@@ -6,6 +6,13 @@
     margin-top: 60px;
 }
 
+.carousel{
+    margin-top: 25px;
+}
+
+#cards{
+    margin-top: 15px;
+}
 div.card{
     width: 260px;
     height: 450px;
@@ -24,9 +31,8 @@ div.card{
     min-width: 100%;
   }
 
-
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-   #list{
-    display: none;
-    }
+@media screen and (max-width: 991px) and (min-width: 386px) {
+  #list {
+      display: none;
+  }
 }
